@@ -5,10 +5,10 @@ const ftp = new FtpClient()
 
 
 const config = {
-  host: '112.74.177.35',
-  port: 21,
-  user: 'test_yzt',
-  password: 'testyzt001',
+  host: '', // 服务器host
+  port: 21, 
+  user: '',
+  password: '',
   localRootPath: path.join('/Users/huangjiaming/daguang/yzt/yzt_admin', 'dist'), // 要上传的本地文件目录地址
   remotePath: 'admin', // ftp目录地址
   uploadFileCount: 0, // 要上传文件的数量
