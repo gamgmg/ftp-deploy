@@ -9,15 +9,13 @@ const config = {
   port: 21, 
   user: '',
   password: '',
-  localRootPath: path.join('/Users/huangjiaming/daguang/yzt/yzt_admin', 'dist'), // 要上传的本地文件目录地址
+  localRootPath: path.join('/to/project/path', 'dist'), // 要上传的本地文件目录地址
   remotePath: 'admin', // ftp目录地址
   uploadFileCount: 0, // 要上传文件的数量
   mkdirCount: 0, // 要创建的目录数量
   uploadFileList: [], // 要上传的文件列表
   mkdirList: [] // 要创建的目录列表
 }
-
-// deployHandler()
 
 async function deployHandler() {
   console.log('开始读取文件')
